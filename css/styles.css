@@ -175,7 +175,7 @@ label input,
 select {
   display: block;
   padding: 10px;
-  border: 0.5px solid blueviolet;
+  border: 0.5px solid rgb(226, 43, 113);
   background-color: #fff;
   border-radius: 8px;
   color: black;
@@ -183,7 +183,7 @@ select {
 
 input,
 select {
-  outline-color: blueviolet;
+  outline-color: rgb(226, 43, 180);
 }
 
 form div {
@@ -231,7 +231,7 @@ footer {
 
 .text {
   font-family: Times New Roman;
-  font-size: 1.2rem;
+  font-size: 1.3rem;
   margin-bottom: auto;
   justify-content: center;
   padding: 10px;
@@ -282,5 +282,5 @@ tr:nth-child(even) {
 }
 
 .exit a {
-  color: rgb(165, 42, 73);
+  color: rgb(226, 43, 113);
 }
