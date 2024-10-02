@@ -42,7 +42,7 @@ header ul {
 }
 
 header a {
-  color: brown;
+  color: rgb(165, 122, 42);
   font-weight: 500;
 }
 
@@ -82,7 +82,7 @@ button {
 }
 
 button:hover {
-  color: blueviolet;
+  color: rgb(226, 43, 156);
   background-color: transparent;
 }
 
@@ -106,6 +106,7 @@ main .devs {
   gap: 20px;
   padding: 50px 0;
 }
+
 .info h2,
 .devs h2 {
   text-align: center;
@@ -210,18 +211,18 @@ footer {
 }
 
 .author-image {
+  max-width: 300px;
   position: relative;
-  max-width: 600px;
 }
 
 .author-name {
   position: absolute;
-  font-size: 1.5rem;
+  font-size: 1.2rem;
   align-items: flex-end;
   bottom: 0;
   display: flex;
   color: black;
-  left: 2rem;
+  left: 1rem;
 }
 .responsive {
   width: 100%;
@@ -247,8 +248,8 @@ footer {
 }
 
 .responsive1 {
-  width: 5vh;
   height: auto;
+  width: 5vh;
 }
 
 table {
@@ -281,5 +282,5 @@ tr:nth-child(even) {
 }
 
 .exit a {
-  color: brown;
+  color: rgb(165, 42, 73);
 }
